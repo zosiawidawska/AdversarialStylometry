@@ -140,6 +140,12 @@ Udowadnia to, klasyfikator daje wyników poprzez kategoryzację tematyki utworó
 ### 4. Atak Adversarial (Próba oszukania systemu)
 Wykorzystując aplikację Streamlit, przeprowadziliśmy testy polegające na próbie imitacji stylu artysty.
 
-**Wyniki z testów:** W większości przeprowadzonych prób model podawał błędne predykcje.
+<img width="810" height="772" alt="image(1)" src="https://github.com/user-attachments/assets/7a5aee15-c1f6-4701-a130-72ed7d893fed" />
+
+**Wyniki z testów:** W większości przeprowadzonych prób na wymyślonych fragmentach tekstu model podawał błędne predykcje.
 
 **Wniosek:** Eksperyment ten odnalazł słabość analizy tekstów muzycznych. Piosenki zazwyczaj charakteryzują się wysoką repetytywnością (refreny, powtarzane frazy i zbitki słów). Model nauczył się tej struktury i pewne elementy lub słowa czerpały z tego dużą przewagę. Próba naśladowania stylu odbywa sie poprzez wprowadzenie, krótkiego tekstu pisanego w bardziej naturalnej formie. Z tego powodu większość predykcji jest niepoprawna.
+
+**Próba z rzeczywistym tekstem:** Przy wprowadzeniu prawdziwego, dlugiego tekstu piosenki artysty, model w wiekszości daje poprawne predykcje
+<img width="903" height="784" alt="image" src="https://github.com/user-attachments/assets/49640c8d-db10-402a-bea7-d96cdfb1b74f" />
+
